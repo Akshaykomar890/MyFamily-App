@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyFamilyApp" parent="Theme.Material3.DayNight.NoActionBar">
+
+         <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.MyFamilyApp" parent="Base.Theme.MyFamilyApp" />
+    
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/green</item>
+    </style>
+
+
+    <style name="App.Custom" parent="Widget.AppCompat.ImageButton">
+        <item name="android:color"> @color/black</item>
+    </style>
+
+    <color name="green">#62d1c6</color>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyFamily App</string>
+    <string name="security">Security</string>
+    <string name="first_card_msg">In case of emergency,\nkeep telling family\nmembers to <b>contact me</b></string>
+    <string name="second_card_msg">Open when you are on a\npotentially dangerous\njourney</string>
+    <string name="family">My Family</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
