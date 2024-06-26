@@ -109,15 +109,5 @@
             android:layout_gravity="center_vertical"
             android:layout_marginStart="240dp"/>
     </com.google.android.material.card.MaterialCardView>
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:menu="@menu/menue"
-        android:background="@drawable/bottom_nav"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"/>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

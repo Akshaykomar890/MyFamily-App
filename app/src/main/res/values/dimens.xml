@@ -3,4 +3,6 @@
     <dimen name="card_height">180dp</dimen>
     <dimen name="first_card_image">110dp</dimen>
     <dimen name="map_width">30dp</dimen>
+    <dimen name="profile_image">85dp</dimen>
+    <dimen name="small_img">24dp</dimen>
 </resources>

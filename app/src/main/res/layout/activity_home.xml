@@ -6,31 +6,24 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
+    <FrameLayout
+        android:id="@+id/home_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/navigation_home"
+        app:layout_constraintTop_toTopOf="parent"/>
 
-    <ImageButton
-        android:background="@drawable/map"
-        android:backgroundTint="@color/black"
-        android:clickable="true"
-        android:id="@+id/iconButton"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="20dp"
-        android:focusable="true"/>
-
-    <com.google.android.material.textview.MaterialTextView
-        android:layout_width="wrap_content"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation_home"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/poppins_bold"
-        android:text="@string/family"
-        android:textColor="@color/black"
-        android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/white"
+        app:menu="@menu/menue"
+        app:itemTextColor="#62d1c6"
+        android:background="@drawable/bottom_nav"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
